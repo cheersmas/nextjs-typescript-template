@@ -2,6 +2,7 @@
   "env": {
     "browser": true,
     "es2021": true,
+    "jest": true,
     "node": true
   },
   "extends": [
@@ -9,8 +10,9 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "prettier",
-    "prettier/react"
+    "plugin:jest/recommended",
+    "prettier/react",
+    "prettier"
   ],
   "globals": {
     "React": "readonly"
@@ -23,7 +25,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "simple-import-sort"],
+  "plugins": ["@typescript-eslint", "jest", "react", "simple-import-sort"],
   "rules": {
     "max-lines": ["error", 80],
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
