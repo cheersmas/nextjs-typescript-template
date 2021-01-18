@@ -1,11 +1,19 @@
 {
   "name": "x",
   "version": "1.0.0",
-  "description": "Desktop environment in the browser.",
+  "description": "NextJS OS building",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheersmas/x.git"
+  },
   "author": "cheersmas",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheersmas/x/issues"
+  },
+  "homepage": "https://github.com/cheersmas/x#readme"
 }
