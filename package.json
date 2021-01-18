@@ -4,6 +4,9 @@
   "description": "NextJS OS building",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,6 +17,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cheersmas/x/issues"
+  },
+  "dependencies": {
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "homepage": "https://github.com/cheersmas/x#readme"
 }
