@@ -53,6 +53,7 @@
         "extensions": [".tsx"]
       }
     ],
+    "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
     "semi": ["error", "always"],
     "simple-import-sort/imports": "error",
