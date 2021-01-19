@@ -9,5 +9,5 @@ test('renders index page', () => {
     </StyledApp>
   );
 
-  expect(getByText('Hello, World')).toBeInTheDocument();
+  expect(getByText('Hello, world!')).toBeInTheDocument();
 });
