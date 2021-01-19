@@ -8,7 +8,6 @@ test('renders index page', () => {
       <Index />
     </StyledApp>
   );
-  const linkElement = getByText('Hello, World');
 
-  expect(linkElement).toBeInTheDocument();
+  expect(getByText('Hello, World')).toBeInTheDocument();
 });
