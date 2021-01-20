@@ -1,7 +1,8 @@
 ## Next JS template
 
 ### Features
-- next-js with typescript
+- next-js starter
+- typescript
 - jest
 - eslint (airbnb)
 - stylelint
