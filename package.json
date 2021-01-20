@@ -1,9 +1,9 @@
 {
-  "name": "x",
+  "name": "nextjs-typescript-template",
   "version": "1.0.0",
-  "description": "NextJS OS building",
+  "description": "NextJS Typescript template",
   "main": "index.js",
-  "author": "cheersmas",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
@@ -25,16 +25,12 @@
     "*.{js,ts,tsx}": "eslint --fix",
     "*.tsx": "stylelint --fix"
   },
-  "bugs": {
-    "url": "https://github.com/cheersmas/x/issues"
-  },
   "dependencies": {
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
   },
-  "homepage": "https://github.com/cheersmas/x#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
