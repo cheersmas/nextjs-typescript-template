@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "NextJS OS building",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cheersmas/x.git"
-  },
   "author": "cheersmas",
   "license": "MIT",
   "scripts": {
